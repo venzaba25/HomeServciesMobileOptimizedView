@@ -2,7 +2,7 @@ import { MobileLayout } from "@/components/MobileLayout";
 
 export default function InboxPage() {
   const chats = [
-    { id: 1, name: "Jenny Wilson", message: "I'll be there at 10 AM", time: "2 min ago", unread: 2 },
+    { id: 1, name: "Ma. Luz Maca", message: "I'll be there at 10 AM", time: "2 min ago", unread: 2 },
     { id: 2, name: "Ralph Edwards", message: "The painting is completed!", time: "1 hr ago", unread: 0 },
     { id: 3, name: "Devon Lane", message: "Sure, I can fix that", time: "3 hrs ago", unread: 1 },
     { id: 4, name: "Cameron Williamson", message: "Thank you for your review!", time: "Yesterday", unread: 0 },

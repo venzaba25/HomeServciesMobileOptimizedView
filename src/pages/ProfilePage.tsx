@@ -19,8 +19,8 @@ export default function ProfilePage() {
           <div className="mb-3 flex h-24 w-24 items-center justify-center rounded-full bg-primary text-3xl font-bold text-primary-foreground">
             AA
           </div>
-          <h1 className="text-xl font-bold text-foreground">Andrew Ainsley</h1>
-          <p className="text-sm text-muted-foreground">andrew@example.com</p>
+          <h1 className="text-xl font-bold text-foreground">Venz Aba</h1>
+          <p className="text-sm text-muted-foreground">venzaba@gmail.com</p>
         </div>
 
         {/* Menu */}

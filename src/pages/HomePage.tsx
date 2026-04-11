@@ -16,7 +16,7 @@ export default function HomePage() {
         <div className="flex items-center justify-between">
           <div>
             <p className="text-sm text-muted-foreground">Good Morning 👋</p>
-            <h1 className="text-xl font-bold text-foreground">Andrew Ainsley</h1>
+            <h1 className="text-xl font-bold text-foreground">Venz Aba</h1>
           </div>
           <button className="relative rounded-full p-2 hover:bg-muted">
             <Bell className="h-6 w-6 text-foreground" />
