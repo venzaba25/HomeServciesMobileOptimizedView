@@ -79,7 +79,7 @@ export const subServices: SubService[] = [
 ];
 
 export const providers: ServiceProvider[] = [
-  { id: "p1", name: "Ma. Luz Maca", categoryId: "cleaning", image: "", rating: 4.8, reviews: 8289, price: 25, description: "Professional cleaning expert with 5+ years experience in residential and commercial cleaning.", experience: "5 years", completedJobs: 1250 }, image: "", rating: 4.8, reviews: 8289, price: 25, description: "Professional cleaning expert with 5+ years experience in residential and commercial cleaning.", experience: "5 years", completedJobs: 1250 },
+  { id: "p1", name: "Ma. Luz Maca", categoryId: "cleaning", image: "", rating: 4.8, reviews: 8289, price: 25, description: "Professional cleaning expert with 5+ years experience in residential and commercial cleaning.", experience: "5 years", completedJobs: 1250 },
   { id: "p2", name: "Wade Warren", categoryId: "cleaning", image: "", rating: 4.6, reviews: 6342, price: 20, description: "Specialized in deep cleaning and sanitization services.", experience: "3 years", completedJobs: 890 },
   { id: "p3", name: "Robert Fox", categoryId: "cleaning", image: "", rating: 4.9, reviews: 4521, price: 30, description: "Expert in carpet and upholstery cleaning with eco-friendly products.", experience: "7 years", completedJobs: 2100 },
   { id: "p4", name: "Jacob Jones", categoryId: "repairing", image: "", rating: 4.7, reviews: 3867, price: 40, description: "Skilled handyman specializing in home repairs and maintenance.", experience: "6 years", completedJobs: 1800 },
