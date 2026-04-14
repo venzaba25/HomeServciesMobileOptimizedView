@@ -110,6 +110,7 @@ export default function HelpCenterPage() {
             {contactOptions.map((opt, i) => (
               <button
                 key={i}
+                onClick={() => opt.label === "Customer Service" && navigate("/customer-service")}
                 className="flex w-full items-center gap-4 rounded-2xl border border-border p-4 hover:bg-muted"
               >
                 <span className="text-2xl">{opt.icon}</span>
