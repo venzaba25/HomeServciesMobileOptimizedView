@@ -9,7 +9,9 @@ export function SearchBar() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
-      navigate(`/services?q=${encodeURIComponent(query.trim())}`);
+      navigate(`/search-results?q=${encodeURIComponent(query.trim())}`);
+    } else {
+      navigate("/search");
     }
   };
 
