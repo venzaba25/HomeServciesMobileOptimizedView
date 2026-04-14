@@ -70,7 +70,7 @@ export default function HomePage() {
           <div className="mb-3 flex items-center justify-between">
             <h2 className="text-lg font-bold text-foreground">Most Popular Services</h2>
             <button
-              onClick={() => navigate("/services")}
+              onClick={() => navigate("/most-popular")}
               className="flex items-center gap-1 text-sm font-semibold text-primary"
             >
               See All <ChevronRight className="h-4 w-4" />

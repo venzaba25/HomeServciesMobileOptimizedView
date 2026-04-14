@@ -61,7 +61,7 @@ export default function FillProfilePage() {
 
       <div className="p-6">
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/create-pin")}
           className="w-full rounded-full bg-primary py-4 text-base font-bold text-primary-foreground shadow-lg"
         >
           Continue

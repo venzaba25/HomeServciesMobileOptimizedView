@@ -25,7 +25,7 @@ export default function ChatDetailPage() {
         <div className="flex-1">
           <h1 className="text-base font-bold text-foreground">Ma. Luz Maca</h1>
         </div>
-        <button className="rounded-full p-2 hover:bg-muted">
+        <button onClick={() => navigate("/voice-call")} className="rounded-full p-2 hover:bg-muted">
           <Phone className="h-5 w-5 text-foreground" />
         </button>
         <button className="rounded-full p-2 hover:bg-muted">

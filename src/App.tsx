@@ -37,6 +37,29 @@ import EReceiptPage from "./pages/EReceiptPage.tsx";
 import AddPromoPage from "./pages/AddPromoPage.tsx";
 import PaymentMethodsPage from "./pages/PaymentMethodsPage.tsx";
 import ReviewSummaryPage from "./pages/ReviewSummaryPage.tsx";
+import CreatePinPage from "./pages/CreatePinPage.tsx";
+import SetFingerprintPage from "./pages/SetFingerprintPage.tsx";
+import CongratulationsPage from "./pages/CongratulationsPage.tsx";
+import MostPopularPage from "./pages/MostPopularPage.tsx";
+import SearchPage from "./pages/SearchPage.tsx";
+import SearchResultsPage from "./pages/SearchResultsPage.tsx";
+import FilterPage from "./pages/FilterPage.tsx";
+import BookingDetailsPage from "./pages/BookingDetailsPage.tsx";
+import AddressLocationPage from "./pages/AddressLocationPage.tsx";
+import EnterPinPage from "./pages/EnterPinPage.tsx";
+import BookingSuccessPage from "./pages/BookingSuccessPage.tsx";
+import CancelBookingPage from "./pages/CancelBookingPage.tsx";
+import CancelBookingSuccessPage from "./pages/CancelBookingSuccessPage.tsx";
+import CleaningBookingPage from "./pages/CleaningBookingPage.tsx";
+import PaintingBookingPage from "./pages/PaintingBookingPage.tsx";
+import LaundryBookingPage from "./pages/LaundryBookingPage.tsx";
+import ApplianceBookingPage from "./pages/ApplianceBookingPage.tsx";
+import PlumbingBookingPage from "./pages/PlumbingBookingPage.tsx";
+import ShiftingBookingPage from "./pages/ShiftingBookingPage.tsx";
+import ShiftingAddressPage from "./pages/ShiftingAddressPage.tsx";
+import CarRepairingBookingPage from "./pages/CarRepairingBookingPage.tsx";
+import VoiceCallPage from "./pages/VoiceCallPage.tsx";
+import CustomerServicePage from "./pages/CustomerServicePage.tsx";
 
 const queryClient = new QueryClient();
 
@@ -52,16 +75,39 @@ const App = () => (
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/fill-profile" element={<FillProfilePage />} />
+          <Route path="/create-pin" element={<CreatePinPage />} />
+          <Route path="/set-fingerprint" element={<SetFingerprintPage />} />
+          <Route path="/congratulations" element={<CongratulationsPage />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/verify-code" element={<VerifyCodePage />} />
           <Route path="/create-password" element={<CreatePasswordPage />} />
           <Route path="/services" element={<AllServicesPage />} />
           <Route path="/services/:categoryId" element={<ServiceCategoryPage />} />
+          <Route path="/most-popular" element={<MostPopularPage />} />
+          <Route path="/search" element={<SearchPage />} />
+          <Route path="/search-results" element={<SearchResultsPage />} />
+          <Route path="/filter" element={<FilterPage />} />
           <Route path="/provider/:providerId" element={<ProviderDetailPage />} />
           <Route path="/booking/:providerId" element={<BookingPage />} />
+          <Route path="/cleaning-booking" element={<CleaningBookingPage />} />
+          <Route path="/painting-booking" element={<PaintingBookingPage />} />
+          <Route path="/laundry-booking" element={<LaundryBookingPage />} />
+          <Route path="/appliance-booking" element={<ApplianceBookingPage />} />
+          <Route path="/plumbing-booking" element={<PlumbingBookingPage />} />
+          <Route path="/shifting-booking" element={<ShiftingBookingPage />} />
+          <Route path="/shifting-address" element={<ShiftingAddressPage />} />
+          <Route path="/car-repairing-booking" element={<CarRepairingBookingPage />} />
+          <Route path="/booking-details" element={<BookingDetailsPage />} />
+          <Route path="/address-location" element={<AddressLocationPage />} />
+          <Route path="/enter-pin" element={<EnterPinPage />} />
+          <Route path="/booking-success" element={<BookingSuccessPage />} />
+          <Route path="/cancel-booking" element={<CancelBookingPage />} />
+          <Route path="/cancel-booking-success" element={<CancelBookingSuccessPage />} />
           <Route path="/bookings" element={<MyBookingsPage />} />
           <Route path="/inbox" element={<InboxPage />} />
           <Route path="/chat/:chatId" element={<ChatDetailPage />} />
+          <Route path="/voice-call" element={<VoiceCallPage />} />
+          <Route path="/customer-service" element={<CustomerServicePage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/edit-profile" element={<EditProfilePage />} />
           <Route path="/notification-settings" element={<NotificationSettingsPage />} />

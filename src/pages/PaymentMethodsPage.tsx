@@ -46,7 +46,7 @@ export default function PaymentMethodsPage() {
 
       <div className="p-6">
         <button
-          onClick={() => navigate(-1)}
+          onClick={() => navigate("/review-summary")}
           className="w-full rounded-full bg-primary py-4 text-base font-bold text-primary-foreground shadow-lg"
         >
           Continue

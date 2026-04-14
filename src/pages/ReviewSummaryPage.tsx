@@ -78,7 +78,7 @@ export default function ReviewSummaryPage() {
 
       <div className="p-6">
         <button
-          onClick={() => navigate("/e-receipt")}
+          onClick={() => navigate("/enter-pin")}
           className="w-full rounded-full bg-primary py-4 text-base font-bold text-primary-foreground shadow-lg"
         >
           Confirm Payment
