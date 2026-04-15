@@ -60,6 +60,8 @@ import ShiftingAddressPage from "./pages/ShiftingAddressPage.tsx";
 import CarRepairingBookingPage from "./pages/CarRepairingBookingPage.tsx";
 import VoiceCallPage from "./pages/VoiceCallPage.tsx";
 import CustomerServicePage from "./pages/CustomerServicePage.tsx";
+import SplashPage from "./pages/SplashPage.tsx";
+import LetsYouInPage from "./pages/LetsYouInPage.tsx";
 
 const queryClient = new QueryClient();
 
@@ -71,7 +73,10 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/splash" element={<SplashPage />} />
+          <Route path="/onboarding" element={<WelcomePage />} />
           <Route path="/welcome" element={<WelcomePage />} />
+          <Route path="/lets-you-in" element={<LetsYouInPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/fill-profile" element={<FillProfilePage />} />
