@@ -27,7 +27,7 @@ export default function WelcomePage() {
     if (current < slides.length - 1) {
       setCurrent(current + 1);
     } else {
-      navigate("/login");
+      navigate("/lets-you-in");
     }
   };
 
